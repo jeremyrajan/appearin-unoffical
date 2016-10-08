@@ -1,4 +1,4 @@
-# AppearIn Unoffical Desktop App (WIN/Mac)
+# AppearIn Unoffical Desktop App (Win & Mac x64)
 
 I use [Appearin][1] quite a lot for work and family. Its a pretty light weight client and simple setup. I always wanted
 a desktop client for it, so here it is :).
