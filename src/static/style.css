@@ -1,0 +1,113 @@
+body {
+  margin: 0 !important;
+}
+
+webview {
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index: -1;
+}
+webview.hide {
+  flex: 0 1;
+  width: 0px;
+  height: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#myRooms {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  width: 205px;
+  margin-top: -15px;
+  margin-right: 72px;
+}
+
+#myRooms button {
+  background: #FF2E63;
+  border: none;
+  border-radius: 0;
+  padding: 6px;
+  font-size: 13px;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.dropdown-menu {
+  margin-left: 47px;
+  border-radius: 0;
+  margin-top: -1px;
+  font-size: 13px;
+}
+
+#title-bar {
+  -webkit-app-region: drag;
+ height: 30px;
+ background-color: #41CC8D;
+ padding: 5px;
+ margin: 0px;
+ line-height: 30px;
+ color: white;
+ font-family: 'Roboto', sans-serif !important;
+ font-size: 15px;
+}
+
+#title-bar-btns div:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#title {
+ position: fixed;
+ top: 0px;
+ left: 6px;
+}
+
+#title-bar-btns {
+ -webkit-app-region: no-drag;
+ position: fixed;
+ top: 3px;
+ right: 6px;
+}
+
+.modal {
+  display: block;
+  width: 400px;
+  margin-left: -100px !important;
+  padding: 20px;
+  margin-top: -117.5px;
+  top: 50%;
+  left: 50%;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 200px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 500;
+  width: 100%;
+  height: 100%;
+}
+
+#home {
+  width: 100px;
+  margin-top: 12px;
+  background: white;
+  text-align: center;
+  font-size: 14px;
+  height: 31px;
+  line-height: 25px;
+  color: #FF2E63;
+}

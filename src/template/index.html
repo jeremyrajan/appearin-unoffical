@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>AppearIn: Rajan Chats</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div id="title-bar">
+      <div id="title">appear.in</div>
+      <div id="title-bar-btns">
+
+        <div class="btn-group" id="myRooms">
+          <a href="javascript:void(0);" id="home" class="dropdown-item left">Home</a>
+          <div id="top_bar" class="right">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              My Rooms
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="javascript:void(0);" id="add_room"><i class="material-icons">mode_edit</i> Add Room</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="min-btn" class="left"><i class="material-icons">call_received</i></div>
+        <div id="max-btn" class="left"><i class="material-icons">call_made</i></div>
+        <div id="close-btn" class="left"><i class="material-icons">power_settings_new</i></div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div id="container">
+      <webview id="appearin" src="https://appear.in/" autosize="on"></webview>
+    </div>
+  </body>
+  <script>
+    require('../render/renderer.js')
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+</html>
