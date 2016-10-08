@@ -5,6 +5,8 @@ a desktop client for it, so here it is :).
 
 Visit the [releases][3] directory to download relevant binaries.
 
+![image](https://cloud.githubusercontent.com/assets/2890683/19210671/2e3ce556-8d5c-11e6-88e4-ea731d760e76.png)
+
 Please bear in mind that, this app was completed in couple of hours and might have better workarounds for the problem case. I am planning
 on porting the app into React using [this][2] boilerplate, soon. So, if you find issues and better ways, please submit an issue or PR.
 
