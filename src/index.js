@@ -39,7 +39,6 @@ const createWindow = () => {
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/template/index.html`);
-  // mainWindow.loadURL('https://appear.in/rajanchats')
 
 
   // Emitted when the window is closed.
