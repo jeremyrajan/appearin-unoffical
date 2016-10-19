@@ -12,7 +12,7 @@ const options = {
   'build-version': packageJSON.version,
   icon: path.join(__dirname, 'src', 'images', 'icon.icns'),
   ignore: /(node_modules_dev|bin|patches)/,
-  name: 'Appear.in',
+  name: 'Appear.in UnOfficial',
   out: path.join(__dirname, 'releases'),
   prune: true,
   asar: true
