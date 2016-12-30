@@ -1,6 +1,6 @@
 {
   "name": "appear-in",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Appear.in (unofficial) desktop client",
   "main": "index.js",
   "scripts": {
@@ -27,9 +27,9 @@
   "devDependencies": {
     "del": "^2.2.2",
     "devtron": "^1.4.0",
-    "electron": "^1.4.10",
-    "electron-packager": "^8.3.0",
-    "eslint": "^3.11.1",
+    "electron": "^1.4.13",
+    "electron-packager": "^8.4.0",
+    "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-import": "^2.2.0",
