@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "dialogs": "^1.1.17",
-    "electron-config": "^0.2.1",
+    "electron-config": "^1.0.0",
     "jquery": "^3.1.1",
     "modal-element": "^2.0.0"
   }
